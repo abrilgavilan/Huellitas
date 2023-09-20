@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="./imagenes/favicon.svg"
+      sizes="any"
+      type="image/svg+xml"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no,initial-scale=1.0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,700&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/harrystyles.css" />
+    <title>Huellitas</title>
+  </head>
+  <body>
+    <header>
+      <img src="./imagenes/logo.svg" alt="logo" class="logo" />
+      <input type="checkbox" id="menu" checked />
+      <label for="menu">
+        <img src="./imagenes/menu.png" class="menu-icono" alt="" />
+      </label>
+      <nav>
+        <div>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pag1.html">Tú Compañero</a></li>
+            <li><a href="pag2.html">Tus Datos</a></li>
+            <li><a href="pag3.html">Cuidados Básicos</a></li>
+            <li><a href="pag4.html">Catálogo</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Contáctanos para buscar a tu futuro compañero</h2>
+        <form>
+          <label for="first-name">Nombre:</label><br />
+          <input type="text" id="first-name" name="first-name" /><br />
+          <label for="last-name">Apellido:</label><br />
+          <input type="text" id="last-name" name="last-name" /><br />
+          <label for="mail">Mail:</label><br />
+          <input type="text" id="mail" name="mail" /><br />
+          <label for="genero">Genero:</label><br />
+          <input type="radio" name="genero" />Femenino <br />
+          <input type="radio" name="genero" />Masculino <br />
+          <input type="radio" name="genero" />No Binario <br />
+          <input type="radio" name="genero" />Prefiero no decirlo <br />
+          <label for="number">Telefono:</label><br />
+          <input type="text" id="number" name="number" /><br />
+          <label for="options">Documento de identidad:</label><br />
+          <select id="options" name="options">
+            <option value="option1">DNI</option>
+            <option value="option2">LIBRETA CÍVICA</option>
+            <option value="option3">LIBRETA DE ENROLAMIENTO</option></select
+          ><br />
+          <input type="text" id="dni" name="dni" /><br />
+          <label for="options">Residencia:</label><br />
+          <select id="options" name="options">
+            <option value="option1">CASA</option>
+            <option value="option2">DEPARTAMENTO</option>
+            <option value="option3">FUERA DE LA ZONA URBANA</option></select
+          ><br />
+          <label for="intention">¿Por qué estas interesado en adoptar?</label
+          ><br />
+          <textarea id="intention" name="intention"></textarea><br />
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Abril Gavilan 5to 2da 2023</p>
+      <p>Rosario Thalasselis 5to 2da 2023</p>
+    </footer>
+  </body>
+</html>
